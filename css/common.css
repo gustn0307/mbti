@@ -20,7 +20,6 @@ img {
   color: #13b491;
   text-align: center;
   margin-bottom: 20px;
-
 }
 
 .page_subtitle {
@@ -87,12 +86,12 @@ img {
 .btn_gray {
   background-color: #f2f4f6;
   color: #444;
-  box-shadow: 0 14px 0 #f2f4f7;
+  box-shadow: 0 14px 0 #dfe1e2;
 }
 
 /* 버튼에 눌림효과 추가 */
 .btn_gray:active {
-  box-shadow: 0 4px 0 #f2f4f7;
+  box-shadow: 0 4px 0 #dfe1e2;
 }
 
 .btn_small {
