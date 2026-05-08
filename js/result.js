@@ -5,8 +5,6 @@ const mbti = new URLSearchParams(location.search).get("mbti");
 
 // 클래스 접근자 중 문자열로 접근하기 위해 [] 사용
 const result = results[mbtis[mbti]];
-console.log(result);
-console.log(result.character);
 
 // 변경할 태그를 읽어서 변수에 할당
 const titleElement = document.querySelector(".page_title");
@@ -15,7 +13,7 @@ const boxElements = document.querySelectorAll(".box");
 const jobElements = document.querySelectorAll(".job");
 const lectureUrlElement = document.querySelector(".lecture");
 const lectureImgElement = document.querySelector(".lecture img");
-console.log(characterElement)
+
 // 제목 수정
 titleElement.innerHTML = result.title;
 
