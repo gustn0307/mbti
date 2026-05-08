@@ -15,7 +15,7 @@ const boxElements = document.querySelectorAll(".box");
 const jobElements = document.querySelectorAll(".job");
 const lectureUrlElement = document.querySelector(".lecture");
 const lectureImgElement = document.querySelector(".lecture img");
-
+console.log(characterElement)
 // 제목 수정
 titleElement.innerHTML = result.title;
 
